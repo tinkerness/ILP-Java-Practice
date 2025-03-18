@@ -1,4 +1,4 @@
-package com.tcs;
+package com.oops;
 import java.util.*;
 
 public class P01_CourseProgram {
@@ -34,6 +34,8 @@ public class P01_CourseProgram {
 		for (Course cs: handson) {
 			System.out.println(cs.name);
 		}
+		
+		sc.close();;
 	}
 	
 	public static int findAvgOfQuizByAdmin(Course[] c, String str) {

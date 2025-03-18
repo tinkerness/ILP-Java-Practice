@@ -1,4 +1,4 @@
-package com.tcs;
+package com.basics;
 import java.util.*;
 public class PalindromeNumber {
 

@@ -1,4 +1,4 @@
-package com.tcs;
+package com.basics;
 import java.util.*;
 import java.util.Scanner;
 
@@ -55,6 +55,8 @@ public class BalancedBracketChecker
 		{
 			System.out.print("Not Balanced");
 		}
+		
+		sc.close();
 	}
 
 }

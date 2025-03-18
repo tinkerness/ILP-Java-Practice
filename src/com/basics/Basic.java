@@ -1,4 +1,4 @@
-package com.tcs;
+package com.basics;
 
 public class Basic {
 
