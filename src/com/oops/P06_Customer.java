@@ -1,10 +1,6 @@
 package com.oops;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class P06_Customer {
     public static void main(String args[] ) throws Exception {
@@ -39,7 +35,9 @@ public class P06_Customer {
         } else {
             System.out.println("No Customer found with mentioned attribute");
         }
+        sc.close();
     }
+    
     private static Customer searchCustomerBySalary(Customer[] c, int salary)
     {
          // Enter your code here

@@ -1,6 +1,5 @@
 package com.oops;
 
-import java.io.*;
 import java.util.*;
 
 public class P04_Person {
@@ -34,6 +33,7 @@ public class P04_Person {
             System.out.println("No person found with the mentioned name.");
         } 
         
+        sc.close();
     }
     
     public static Person findOldestPerson(Person[] person){

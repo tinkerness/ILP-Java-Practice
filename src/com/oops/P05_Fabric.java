@@ -1,10 +1,6 @@
 package com.oops;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class P05_Fabric {
     public static void main(String args[] ) throws Exception {      
@@ -40,7 +36,8 @@ public class P05_Fabric {
         } else {
             System.out.println("No Fabric found with mentioned attribute.");
         }   
-                         
+               
+        sc.close();
     }
     
    
