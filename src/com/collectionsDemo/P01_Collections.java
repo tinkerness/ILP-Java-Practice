@@ -7,10 +7,9 @@ public class P01_Collections {
 //	- cleaner & more efficient code
 	
 //	Types 
-//	- List
-//	- Set
-//	- Queue
-//	- Map
-	
+//	- List eg: LinkedList, ArrayList
+//	- Map eg: HashedMap
+//	- Set eg: HashSet
+//	- Queue	
 	
 }
