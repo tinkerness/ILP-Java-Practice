@@ -1,6 +1,5 @@
 package com.oops;
 
-import java.io.*;
 import java.util.*;
 
 abstract class Activity  {
@@ -110,5 +109,7 @@ public class P10_ExtendingAbstractClass_and_ImplementingInterface {
         for (Activity act: a) {
             System.out.println(act.eventName + " " + act.yearOfEvent);
         }
+        
+        sc.close();
     }
 }
